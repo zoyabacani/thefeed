@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('Coolvetica Rg.otf') format('opentype');
+}
+
+body {
+    background-color: rgb(147, 182, 233);
+}
+
+h1 {
+    font-family: 'Rubik Puddles', cursive;
+    font-size: 10rem;
+    text-align: center;
+    color: white;
+}
+
+h2 a {
+    font-family: "Coolvetica", opentype;
+    font-size: 5rem;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.video-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.video-col {
+    flex-shrink: 0;
+}
+
+video {
+    display: block;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+}
+
+p {
+    font-family: 'Coolvetica', sans-serif;
+    color: white;
+}
+
+.text-col {
+    flex: 1;
+    font-size: 2rem;
+    text-align: left;
+}

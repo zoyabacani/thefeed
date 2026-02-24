@@ -1,0 +1,77 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('../img/Happy Sunny Day GIF by MonA Hayslett.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Coolvetica", opentype;
+    font-size: 8rem;
+    margin-right: 100px;
+    color: rgb(255, 255, 255);
+}
+
+h1 a {
+    font-family: "Coolvetica", opentype;
+    font-size: 11rem;
+    text-decoration: none;
+    animation: blink 1s infinite;
+    color:rgb(255, 255, 255);
+}
+
+
+
+h2 {
+    color: white;
+}
+
+
+
+.title {
+  font-size: 4rem;
+  color: blue;
+  text-align: center;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    gap: 40px;
+}
+
+
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    padding: 2px 0;
+}
+
+.marquee span {
+    display: inline-block;
+    font-size: 8rem;
+    font-family: Coolvetica;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 200px;
+    text-underline-offset: 10px;
+    text-transform: uppercase;
+    color: white;
+    animation: scroll 60s linear infinite;
+}
+
+@keyframes scroll {
+    from { transform: translateX(100vw); }
+    to { transform: translateX(-100%); }
+}
