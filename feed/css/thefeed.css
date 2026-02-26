@@ -5,6 +5,12 @@
 
 body {
     background-image: url('../img/Happy Sunny Day GIF by MonA Hayslett.gif');
+    background-position: center center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-size: cover; /* Scales the image to cover the entire container */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    height: 100vh; /* Sets the height to 100% of the viewport height */
+    width: 100vw; /* Sets the width to 100% of the viewport width */
 }
 
 h1 {
