@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../feed/img/happysunnydaygifbymonahayslett.gif);
+    background-image: url(../feed/img/sunny.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,6 +19,7 @@ body {
     color: rgb(255, 255, 255);
     text-decoration: none;
     animation: blink 1s infinite;
+    width: 100%;
 }
 
 .header-wrap {
@@ -34,6 +35,8 @@ body {
     overflow: hidden;
     width: 100%;
     padding: 2px 0;
+    width: 100vw;
+    font-style: italic;
 }
 
 .marquee span {
@@ -50,6 +53,13 @@ body {
 }
 
 @keyframes scroll {
-    from { transform: translateX(100vw); }
-    to { transform: translateX(-100%); }
+
+    from {
+        transform: translateX(100vw);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+
 }
