@@ -5,18 +5,14 @@
 
 
 body {
-    margin: 0;
     height: 100vh;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
-    background-image: url('../img/Happy Sunny Day GIF by MonA Hayslett.gif');
+    background-image: url(../feed/img/happysunnydaygifbymonahayslett.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     font-family: "Coolvetica", opentype;
     font-size: 8rem;
     margin-right: 100px;
@@ -25,7 +21,6 @@ body {
     animation: blink 1s infinite;
 }
 
-
 .header-wrap {
     display: flex;
     justify-content: center;
@@ -33,7 +28,6 @@ body {
     color: blue;
     gap: 40px;
 }
-
 
 .marquee {
     white-space: nowrap;
